@@ -1,5 +1,5 @@
 Project is live at following link
-([[https://github.com/facebook/create-react-app](https://gulabpreets-google.netlify.app/)](https://gulabpreets-google.netlify.app/)).
+([https://gulabpreets-google.netlify.app/)](https://gulabpreets-google.netlify.app/)).
 
 ## Available Scripts
 
