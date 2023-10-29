@@ -1,0 +1,74 @@
+/* Default styles for all screen sizes */
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .switch {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .searchbar1{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  /* Media query for small devices (phones) */
+  @media (max-width: 780px) {
+    .Navbar {
+        flex-direction: column;
+      }
+    .navSwitch{
+        display: block;
+        width: 100%;
+        
+    }
+    .nsFlex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .logoSwitchflex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .logoSearch{
+        display: none;
+    }
+    .switch{
+        display: none;
+    }
+  }
+  
+  /* Media query for larger devices (laptops, desktops, tablets) */
+  @media (min-width: 781px) {
+    .navSwitch{
+        display: none;
+    }
+    
+    
+    .logoSearch {
+      display: flex;
+      align-items: center;
+      width: 50%;
+    }
+  
+    .Nav-logo {
+      margin-right: 20px;
+    }
+  
+    .searchbar {
+      flex: 1;
+      width: 100%;
+    }
+  
+  }
+  
