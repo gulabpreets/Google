@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project is live at following link
+([[https://github.com/facebook/create-react-app](https://gulabpreets-google.netlify.app/)](https://gulabpreets-google.netlify.app/)).
 
 ## Available Scripts
 
